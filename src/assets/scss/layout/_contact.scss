@@ -1,0 +1,28 @@
+
+/* Contact */
+
+	#contact {
+		border-bottom: solid 1px _palette(border);
+		overflow-x: hidden;
+
+		> .inner {
+			@include vendor('display', 'flex');
+			padding: 0 !important;
+
+			> :nth-child(2n - 1) {
+				@include padding(2em, 0);
+				margin: auto;
+				width: 33%;
+				text-align: center;
+			}
+
+			> :nth-child(2n) {
+				@include padding(2em, 0);
+				border-left: solid 1px _palette(border);
+				border-right: solid 1px _palette(border);
+				margin: auto;
+				width: 33%;
+				text-align: center;
+			}
+		}
+	}
