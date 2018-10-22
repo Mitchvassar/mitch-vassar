@@ -15,10 +15,6 @@
 	}
 
 	/* Generate Columns 1 through 12 */
-	/*
-		Example:
-		.col-6 { grid-column: span 6; }
-	*/
 
 	$columns: 12;
 	@mixin col-x-list {
@@ -34,8 +30,5 @@
 
 @media screen and (min-width: 1141px) {
 
-	// .grid-wrapper {
-	// 	grid-gap: 0 3em;
-	// }
 
 }

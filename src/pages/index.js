@@ -26,6 +26,7 @@ class HomeIndex extends React.Component {
                 <Banner />
                 
                 <div id="main">
+                
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">

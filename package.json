@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-forty-v2",
-  "description": "Gatsby Starter - Forty V2",
+  "name": "mitch-vassar-portfolio",
+  "description": "Mitch Vassar Portfolio",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Mitch Vassar",
   "dependencies": {
     "gatsby": "^2.0.0",
     "gatsby-plugin-manifest": "^2.0.2",
@@ -30,6 +30,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/Mitchvassar/mitch-vassar"
   }
 }
