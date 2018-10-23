@@ -10,7 +10,7 @@
 			padding: 0 !important;
 
 			> :nth-child(2n - 1) {
-				@include padding(2em, 0);
+				@include padding(4em, 0);
 				margin: auto;
 				width: 33%;
 				text-align: center;
